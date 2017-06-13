@@ -3,7 +3,10 @@
         "browser": true,
         "node": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+      "eslint:recommended",
+      "crockford"
+    ],
     "rules": {
         "indent": [
             "error",
@@ -21,6 +24,7 @@
             "error",
             "never"
         ],
-        "no-console": "off"
+        "no-console": "off",
+        "one-var": "off"
     }
 }
