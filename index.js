@@ -4,7 +4,8 @@ function hello (name) {
   console.log(mensagem + ", " + name + "!");
 }
 
-function timeNow () {
+function timeNow()
+{
   var now = new Date()
   var xpto = 2
 
